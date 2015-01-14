@@ -8,11 +8,13 @@ import org.json.simple.JSONObject;
 public class Registration {
 
 	public static void main(String[] args) {
-		BufferedReader br; send;
+		BufferedReader send;
 		JSONObject receive;
 		// Registering
 		String token = register();
 		System.out.println("My token is " + token + ".");
+		
+		receive.put(token, value);
 	}
 
 	private static String register() {
